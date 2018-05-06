@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Bootstrap Visualization Dashboard</title>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-light px-md-4 mb-3">
+          <a class="navbar-brand" href="index.html">Latitude</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown04">
+                  <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloud.html">Cloudness</a>
+                  <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+    <main class="container-fluid">
+      <div class="col-md-10 mx-auto pb-3">
+        <div class="card p-5 ">
+          <h2>Comparison Latitude: vs X</h2>
+          <hr>
+          Click any plot to get an in-depth analysis.<br>
+          <br>
+          <div class="row">
+            <div class="text-center my-3 col-md-6 col-sm-12">
+              <h4 class="font-weight-normal">vs. Max Temperature</h4>
+              <a href="temp.html">
+                <img src="image/1.png" alt="..." class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="text-center my-3 col-md-6 col-sm-12">
+              <h4 class="font-weight-normal">vs. Humidity</h4>
+              <a href="humidity">
+                <img src="image/2.png" alt="..." class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="text-center my-3 col-md-6 col-sm-12">
+              <h4 class="font-weight-normal">vs. Cloudiness</h4>
+              <a href="cloud.html">
+                <img src="image/3.png" alt="..." class="img-thumbnail">
+              </a>
+            </div>
+
+            <div class="text-center my-3 col-md-6 col-sm-12">
+              <h4 class="font-weight-normal">vs. Wind Speed</h4>
+              <a href="wind.html">
+                <img src="image/4.png" alt="..." class="img-thumbnail">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container text-center">
+        <span class="text-muted">&copy; Copyright Yeon Sung 2017</span>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
